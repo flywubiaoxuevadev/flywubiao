@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+    <ViewStub
+        android:id="@+id/act_root_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </ViewStub>
+
+    <ViewStub
+        android:id="@+id/act_root_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </ViewStub>
+</LinearLayout>
